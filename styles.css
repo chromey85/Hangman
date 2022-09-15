@@ -7,8 +7,27 @@
     background-position: center;
 }
 
-h1 {
+@font-face {
     font-family: 'EraserDust';
-    src: url(/fonts/EraserDust.ttf);
+    src: url(./fonts/EraserDust.ttf);
+}
+
+h1 {
+    font-family: 'EraserDust', sans-serif;
     color: aliceblue;
+    font-size: 150pt;
+    text-align-last: center;
+}
+
+img {
+    display: none;
+}
+
+button {
+    border-color: antiquewhite;
+    font-family: 'EraserDust', sans-serif;
+    color: aliceblue;
+    font-size: 50pt;
+    height: 80px;
+    width: 80px;
 }
